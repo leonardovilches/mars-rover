@@ -1,0 +1,32 @@
+package com.zup.marsrover;
+
+/**
+ * @author leonardo
+ *
+ */
+public class Plateau {
+
+	private final int lowerBoundCoordinateX = 0;
+	private final int lowerBoundCoordinateY = 0;
+	private final int upperBoundCoordinateX;
+	private final int upperBoundCoordinateY;
+	
+	public Plateau(int upperBoundCoordinateX, int upperBoundCoordinateY) {
+		super();
+		this.upperBoundCoordinateX = upperBoundCoordinateX;
+		this.upperBoundCoordinateY = upperBoundCoordinateY;
+	}
+	
+	public int getLowerBoundCoordinateX() {
+		return lowerBoundCoordinateX;
+	}
+	public int getLowerBoundCoordinateY() {
+		return lowerBoundCoordinateY;
+	}
+	public int getUpperBoundCoordinateX() {
+		return upperBoundCoordinateX;
+	}
+	public int getUpperBoundCoordinateY() {
+		return upperBoundCoordinateY;
+	}
+}
