@@ -17,7 +17,7 @@ junit version 4.2
 Ambiente de Desenvolvimento:
 
   - Eclipse Neon IDE
-  - Spring Boot 1.4.2 (ver se é esse msm)	
+  - Spring Boot 2.0.0	
 
 Executando:
 
